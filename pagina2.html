@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Pagina Web </title>
+		<meta charset="UTF-8">
+		<marquee direction="right" behavior="slide" loop="10">Hola buenas tardes</marquee>
+	</head>
+	<body bgcolor="#FCF1DE">
+	 <a name="Inicio"></a>
+	 <p><center style="font-size:x-large;"><b> Series que me gustan </b></center></p>	
+	 <table bordercolor="grey" border="1px">
+		<caption><font color="blue"><b> Mis Series Favoritias </b></font></caption>
+		<tr>
+			<td><b><a href="https://img.ecartelera.com/noticias/74600/74603-h4.jpg" target="_blank"> One Piece </a></b></td>
+			<td>Anime </td>
+			<td>1997</td>
+		</tr>
+		<tr>
+			<td><b><a href="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/01/peaky-blinders-2591523.jpg?tf=3840x" target="_blank">Peaky Blinders</a></b></td>
+			<td>Drama-Acción</td>
+			<td>2016</td>
+		</tr>
+		<tr>
+			<td><b><a href="https://pics.filmaffinity.com/sky_rojo-722991651-mmed.jpg" target="_blank">Sky Rojo</a></b></td>
+			<td>Drama-Acción</td>
+			<td>2022</td>
+		</tr>
+	 </table><br>
+	 <table border="2px">
+		<caption><font color="red"><b> Horario </b></font></caption>
+		<tr style="background-color: #f4dfee">
+			<th></th>
+			<th> Lunes </th>
+			<th> Martes </th>
+			<th> Miercoles </th>
+			<th> Jueves </th>
+			<th> Viernes </th>
+		</tr>
+		<tr>
+			<th> 8:15 - 9:15 </th>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#4775fc"> Lenguaje de Marcas </td>
+			<td align="center" style="background-color:#4775fc"> Lenguaje de Marcas </td>
+			<td align="center" style="background-color:#4775fc"> Lenguaje de Marcas </td>
+			<td align="center" style="background-color:#4775fc"> Lenguaje de Marcas </td>
+		</tr>
+		<tr>
+			<th> 9:15 - 10:15 </th>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#64ff11"> Libre </td>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#e856ff"> Entorno de Desarrollo </td>
+			<td align="center" style="background-color:#ffb056"> Base de datos </td>
+		</tr>
+		<tr>
+			<th> 10:15 - 11:15 </th>
+			<td align="center" style="background-color:#e856ff"> Entorno de Desarrollo </td>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#ffb056"> Base de Datos </td>
+		</tr>
+		<tr>
+			<th colspan="6" style="background-color:#edff11"> RECREO </th>
+		</tr>
+		<tr>
+			<th> 11:45- 12:45 </th>
+			<td align="center" style="background-color:#64ff11"> Libre </td>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#64ff11"> Libre </td>
+			<td align="center" style="background-color:#f34441"> Programación </td>
+			<td align="center" style="background-color:#e856ff"> Entorno de Desarrollo </td>
+		</tr>
+		<tr>
+			<th> 12:45 - 1:45 </th>
+			<td align="center" style="background-color:#fe4dcb"> Sistema Informatico </td>
+			<td align="center" style="background-color:#ffb056"> Base de Datos </td>
+			<td align="center" style="background-color:#fe4dcb"> Sistema Informatico </td>
+			<td align="center" style="background-color:#ffb056"> Base de Datos </td>
+			<td align="center" style="background-color:#fe4dcb"> Sistema Informatico </td>
+		</tr>
+		<tr>
+			<th> 1:45 - 2:45 </th>
+			<td align="center" style="background-color:#fe4dcb"> Sistema Informatico </td>
+			<td align="center" style="background-color:#ffb056"> Base de Datos </td>
+			<td align="center" style="background-color:#fe4dcb"> Sistema Informatico </td>
+			<td align="center" style="background-color:#ffb056"> Base de Datos </td>
+			<td align="center" style="background-color:#fe4dcb"> Sistema Informatico </td>
+		</tr>
+	</table><br>
+	<form method="post">
+		<fieldset>     
+		 <legend><b>Datos personales</b></legend>   
+		  <b>Nombre</b>
+		   <input type="text" name="nombre" value="" />
+		  <b>Apellidos </b>
+		   <input type="text" name="apellidos" value="" />
+		  <b>DNI </b>
+		   <input type="text" name="dni" value="" size="10" maxlength="10" /><br>
+		   <br>
+		  <b>Dirección:</b><br>
+		   <input type="text" name="dirección" value="" size="20" placeholder="Dirección, edificio, piso, etc.." /><br>
+		   <br>
+		   <b>Email:</b><br>
+		   <input type="email" name="dirección" value="" size="50" placeholder="Ponga su correo electronico" /><br>
+		</fieldset> 
+		<fieldset>
+		 <legend><b>Sobre la clase (Grupo)</b></legend>
+		  <b>¿ Cómo te caemos ? </b><br>
+		   <input type="radio" name="clase" value="Bien"> Bien <br> 
+		   <input type="radio" name="clase" value="Nada"> Mal <br>
+		   <input type="radio" name="clase" value="Fatal"> Fatal <br>
+		   <input type="radio" name="clase" value="Normal"> Estas agusto con nosotros <br>
+		  <br>  
+		  <b> ¿ A quién prefieres de delegado de clase? </b><br>
+		   <input type="checkbox" name="delegado" value="opcion1"> Fernando <br>
+		   <input type="checkbox" name="delegado" value="opcion2"> Cristian <br>
+		   <input type="checkbox" name="delegado" value="opcion3"> Gala <br>
+		   <input type="checkbox" name="delegado" value="opcion4"> Pablo <br>
+		</fieldset> 
+		<fieldset>
+		 <legend><b>¿ Qué te parece la web ? </b></legend>
+		  <b>Que te ha parecido la web puntuala del 1 al 10.</b><br>
+			<select name="so">
+			 <option value="" selected="selected"> - Selecciona - </option>
+			 <option value="1"> 1 </option>
+			 <option value="2"> 2 </option>
+			 <option value="3"> 3 </option>
+			 <option value="4"> 4 </option>
+			 <option value="5"> 5 </option>
+			 <option value="6"> 6 </option>
+			 <option value="7"> 7 </option>  
+			 <option value="8"> 8 </option>
+			 <option value="9"> 9 </option>
+			 <option value="10"> 10 </option>
+			</select><br>
+			 <br>
+		  Si quieres añadir tu opinión de manera manuscrita puedes dejarla adjuntando un archivo o escribiendola a contunuación, como usted prefiera.<br>
+			<input type="file" name="elegir"><br>
+			<br>
+		  Escribela aquí: <br>
+			<textarea name="reseña" cols="50" rows="5"></textarea>                        
+		</fieldset>
+		<fieldset>
+		  <legend><b> Borrar en caso de que te hayas confundido </b></legend>  
+			Si te has confundido poniendo varias cosas, puedes darle al botón de abajo <b>Borrar todo</b> y borrara todo, pudiendo hacerlo completamente nuevo.<br>
+		  <input type="reset" name="borrar" value="Borrar todo"> 
+		</fieldset>   
+		<fieldset>
+		 <legend><b> Enviar formulario </b></legend>
+		  Si ya has rellenado todos los campos, pulse el botón de <b>Enviar</b> que viene a continuación:<br>
+		   <input type="submit" name="enviar" value="Enviar">
+		</fieldset>        
+	   </form>
+	   <br>
+	</body>
+	<a href="index.html"><img src="imagenes/home-logo-png-1.png" width="3%"></a>
+</html>
+
+
